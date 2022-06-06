@@ -1,4 +1,4 @@
-# NODEJS + MYSQL 
+# NODEJS + RDS + S3 
 
 > Este proyecto consta de 2 paginas en NodeJS, uno siendo un index y el Otro un CRUD de agenda usando MYSQL con S3
 
@@ -28,6 +28,7 @@ constructor(){
 var conn=mysql.createConnection({
     host: 'SU_HOST',
     user: 'SU_USUARIO',
+    root: 'SU_ROOT',
     password: 'SU_PASSWORD',
     database: 'SU_BASEDEDATOS',
     multipleStatements: true
